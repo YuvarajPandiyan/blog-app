@@ -1,0 +1,4 @@
+export const album = {
+  GET_ALL_ALBUMS: "GET_ALL_ALBUMS",
+  GET_ONE_ALBUM_PHOTOS: "GET_ONE_ALBUM_PHOTOS",
+};

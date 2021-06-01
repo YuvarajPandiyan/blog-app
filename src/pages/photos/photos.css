@@ -1,0 +1,23 @@
+.photo__root__grid {
+  display: grid;
+  justify-items: center;
+}
+.photo__root {
+  display: flex;
+  flex: content;
+  flex-wrap: wrap;
+  gap: 36px;
+  margin: 100px 30px 30px 30px;
+}
+
+.photo__card {
+  width: 150px;
+}
+.photo__title{
+    padding: 10px;
+}
+
+.photo__card:hover {
+  background-color: #232931;
+  border-radius: 0px 0px 10px 10px;
+}

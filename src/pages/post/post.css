@@ -1,0 +1,38 @@
+/* .post__root {
+  position: relative;
+} */
+.post__root__flex {
+  display: flex;
+  position: fixed;
+  top: 50px;
+  /* position: relative; */
+}
+.post_section {
+  margin-top: 45px;
+  margin-left: 30px;
+}
+.post__comment__root {
+  margin-top: 45px;
+}
+.comment__section {
+  margin: 30px;
+  height: 80%;
+  overflow-y: scroll;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comment__section::-webkit-scrollbar {
+  display: none;
+}
+
+.comment{
+    background-color: #232931;
+    border-radius: 20px;
+    padding: 20px;
+}
+.name{
+    margin: 0;
+}

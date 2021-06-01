@@ -1,0 +1,5 @@
+export const posts = {
+  GET_POSTS: "GET_POSTS",
+  GET_POST: "GET_POST",
+  GET_SINGLE_USER_POSTS: "GET_SINGLE_USER_POSTS",
+};
